@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="298dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:id="@+id/button"
+            android:layout_gravity="bottom"
+            android:onClick="start" />
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="  Client "
+            android:id="@+id/textView"
+            android:textSize="69dp"
+            android:textIsSelectable="false"
+            android:textColor="#fb050d"
+            android:allowUndo="false" />
+
+    </LinearLayout>
+</LinearLayout>
